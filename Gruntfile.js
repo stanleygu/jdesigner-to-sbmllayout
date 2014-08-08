@@ -345,7 +345,8 @@ module.exports = function (grunt) {
             '*.html',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
-            'fonts/*'
+            'fonts/*',
+            '*.json'
           ]
         }, {
           expand: true,
@@ -380,6 +381,20 @@ module.exports = function (grunt) {
         'imagemin',
         'svgmin'
       ]
+    },
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'https://github.com/stanleygu/jdesigner-to-sbmllayout.git',
+          branch: 'gh-pages'
+        }
+      }
     },
 
     // Test settings

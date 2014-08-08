@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-sm-4">
+    <h1>JDesigner (JSON)</h1>
+    <div style="height: {{$window.innerHeight - 110}}px;" ui-ace="{
+          useWrapMode : true,
+          showGutter: true,
+          theme:'solarized_light',
+          mode: 'json'
+          }" ng-model="jdesignerString"></div>
+  </div>
+  <div class="col-sm-4">
+    <h1>SBML Layout (JSON)</h1>
+    <div style="height: {{$window.innerHeight - 110}}px;" ui-ace="{
+          useWrapMode : true,
+          showGutter: true,
+          theme:'solarized_light',
+          mode: 'json'
+          }" ng-model="sbmlLayoutJsonString"></div>
+  </div>
+  <div class="col-sm-4">
+    <h1>SBML Layout (XML)</h1>
+    <div style="height: {{$window.innerHeight - 110}}px;" ui-ace="{
+          useWrapMode : true,
+          showGutter: true,
+          theme:'solarized_light',
+          mode: 'xml'
+          }" ng-model="sbmlLayoutXmlString"></div>
+  </div>
+</div>

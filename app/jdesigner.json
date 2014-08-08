@@ -1,0 +1,1282 @@
+{
+  "JDesignerFormat" : {
+    "JD_Header" : {
+      "QFormatVersion" : "1.0"
+    },
+    "model" : {
+      "id" : "mymodel",
+      "note" : "Some notes"
+    },
+    "graphicsHeader" : {
+    },
+    "listOfParameters" : [
+        {
+          "id" : "J0_k",
+          "value" : 0.10,
+          "note" : "Some notes"
+        },
+        {
+          "id" : "J1_k",
+          "value" : 0.10,
+          "note" : "Some notes"
+        },
+        {
+          "id" : "J2_k",
+          "value" : 0.10,
+          "note" : "Some notes"
+        },
+        {
+          "id" : "J3_k",
+          "value" : 0.10,
+          "note" : "Some notes"
+        },
+        {
+          "id" : "J4_k",
+          "value" : 0.10,
+          "note" : "Some notes"
+        }
+      ],
+    "listOfCompartments" : [
+        {
+          "id" : "compartment",
+          "volume" : 1.00,
+          "visible" : 0,
+          "membraneThickness" : 8.00,
+          "membraneColor" : "FFFFA500",
+          "interiorColor" : "FFFFEEEE",
+          "boundingBox" : {
+            "x" : 0.00,
+            "y" : 0.00,
+            "w" : 96.00,
+            "h" : 64.00
+          },
+          "textValue" : {
+            "value" : "compartment",
+            "visible" : -1,
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 8.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          }
+        }
+      ],
+    "listOfSpecies" : [
+        {
+          "id" : "Node0",
+          "initialConcentration" : 0.00,
+          "compartment" : "compartment",
+          "boundary" : 0,
+          "note" : "Some notes",
+          "visible" : -1,
+          "positionLocked" : 0,
+          "sizeLocked" : 0,
+          "position" : {
+            "x" : 64.00,
+            "y" : 70.00
+          },
+          "displayValue" : {
+            "visible" : 0,
+            "displayStatus" : "dvInitialValue",
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 8.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "textValue" : {
+            "value" : "S0",
+            "visible" : -1,
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 10.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "complex" : {
+            "id" : "DefaultMolecule",
+            "displayName" : "bsShadow",
+            "w" : 62.00,
+            "h" : 40.00,
+            "boundarySpeciesStyle" : "bsShadow",
+            "boundaryStyleColor" : "FF0000FF",
+            "captionPosition" : "npCenter",
+            "aliasBoundaryColor" : "FFFF0000",
+            "aliasBoundaryThickness" : "00000000",
+            "subunit" : {
+              "shape" : "suOvalSquare",
+              "boundingBox" : {
+                "x" : 0.00,
+                "y" : 0.00,
+                "w" : 62.00,
+                "h" : 40.00
+              },
+              "textValue" : {
+                "value" : "S1",
+                "visible" : -1,
+                "position" : {
+                  "rx" : 24.88,
+                  "ry" : 14.25
+                },
+                "font" : {
+                  "fontName" : "Arial",
+                  "fontSize" : 8.00,
+                  "fontStyle" : "",
+                  "fontColor" : "FF000000"
+                }
+              },
+              "gradient" : {
+                "scheme" : "gtVertLinear",
+                "startColor" : "FFFFCC99",
+                "endColor" : "00FFFFFF"
+              },
+              "outlineStyle" : {
+                "color" : "FFFF6600",
+                "thickness" : 2.00,
+                "strokeType" : "dsDash"
+              }
+            }
+          }
+        },
+        {
+          "id" : "Node1",
+          "initialConcentration" : 0.00,
+          "compartment" : "compartment",
+          "boundary" : 0,
+          "note" : "Some notes",
+          "visible" : -1,
+          "positionLocked" : 0,
+          "sizeLocked" : 0,
+          "position" : {
+            "x" : 259.00,
+            "y" : 96.00
+          },
+          "displayValue" : {
+            "visible" : 0,
+            "displayStatus" : "dvInitialValue",
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 8.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "textValue" : {
+            "value" : "S0",
+            "visible" : -1,
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 10.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "complex" : {
+            "id" : "DefaultMolecule",
+            "displayName" : "bsShadow",
+            "w" : 62.00,
+            "h" : 40.00,
+            "boundarySpeciesStyle" : "bsShadow",
+            "boundaryStyleColor" : "FF0000FF",
+            "captionPosition" : "npCenter",
+            "aliasBoundaryColor" : "FFFF0000",
+            "aliasBoundaryThickness" : "00000000",
+            "subunit" : {
+              "shape" : "suOvalSquare",
+              "boundingBox" : {
+                "x" : 0.00,
+                "y" : 0.00,
+                "w" : 62.00,
+                "h" : 40.00
+              },
+              "textValue" : {
+                "value" : "S1",
+                "visible" : -1,
+                "position" : {
+                  "rx" : 24.88,
+                  "ry" : 14.25
+                },
+                "font" : {
+                  "fontName" : "Arial",
+                  "fontSize" : 8.00,
+                  "fontStyle" : "",
+                  "fontColor" : "FF000000"
+                }
+              },
+              "gradient" : {
+                "scheme" : "gtVertLinear",
+                "startColor" : "FFFFCC99",
+                "endColor" : "00FFFFFF"
+              },
+              "outlineStyle" : {
+                "color" : "FFFF6600",
+                "thickness" : 2.00,
+                "strokeType" : "dsDash"
+              }
+            }
+          }
+        },
+        {
+          "id" : "Node2",
+          "initialConcentration" : 0.00,
+          "compartment" : "compartment",
+          "boundary" : 0,
+          "note" : "Some notes",
+          "visible" : -1,
+          "positionLocked" : 0,
+          "sizeLocked" : 0,
+          "position" : {
+            "x" : 170.00,
+            "y" : 214.00
+          },
+          "displayValue" : {
+            "visible" : 0,
+            "displayStatus" : "dvInitialValue",
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 8.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "textValue" : {
+            "value" : "S0",
+            "visible" : -1,
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 10.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "complex" : {
+            "id" : "DefaultMolecule",
+            "displayName" : "bsShadow",
+            "w" : 62.00,
+            "h" : 40.00,
+            "boundarySpeciesStyle" : "bsShadow",
+            "boundaryStyleColor" : "FF0000FF",
+            "captionPosition" : "npCenter",
+            "aliasBoundaryColor" : "FFFF0000",
+            "aliasBoundaryThickness" : "00000000",
+            "subunit" : {
+              "shape" : "suOvalSquare",
+              "boundingBox" : {
+                "x" : 0.00,
+                "y" : 0.00,
+                "w" : 62.00,
+                "h" : 40.00
+              },
+              "textValue" : {
+                "value" : "S1",
+                "visible" : -1,
+                "position" : {
+                  "rx" : 24.88,
+                  "ry" : 14.25
+                },
+                "font" : {
+                  "fontName" : "Arial",
+                  "fontSize" : 8.00,
+                  "fontStyle" : "",
+                  "fontColor" : "FF000000"
+                }
+              },
+              "gradient" : {
+                "scheme" : "gtVertLinear",
+                "startColor" : "FFFFCC99",
+                "endColor" : "00FFFFFF"
+              },
+              "outlineStyle" : {
+                "color" : "FFFF6600",
+                "thickness" : 2.00,
+                "strokeType" : "dsDash"
+              }
+            }
+          }
+        },
+        {
+          "id" : "Node3",
+          "initialConcentration" : 0.00,
+          "compartment" : "compartment",
+          "boundary" : 0,
+          "note" : "Some notes",
+          "visible" : -1,
+          "positionLocked" : 0,
+          "sizeLocked" : 0,
+          "position" : {
+            "x" : 393.00,
+            "y" : 215.00
+          },
+          "displayValue" : {
+            "visible" : 0,
+            "displayStatus" : "dvInitialValue",
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 8.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "textValue" : {
+            "value" : "S0",
+            "visible" : -1,
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 10.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "complex" : {
+            "id" : "DefaultMolecule",
+            "displayName" : "bsShadow",
+            "w" : 62.00,
+            "h" : 40.00,
+            "boundarySpeciesStyle" : "bsShadow",
+            "boundaryStyleColor" : "FF0000FF",
+            "captionPosition" : "npCenter",
+            "aliasBoundaryColor" : "FFFF0000",
+            "aliasBoundaryThickness" : "00000000",
+            "subunit" : {
+              "shape" : "suOvalSquare",
+              "boundingBox" : {
+                "x" : 0.00,
+                "y" : 0.00,
+                "w" : 62.00,
+                "h" : 40.00
+              },
+              "textValue" : {
+                "value" : "S1",
+                "visible" : -1,
+                "position" : {
+                  "rx" : 24.88,
+                  "ry" : 14.25
+                },
+                "font" : {
+                  "fontName" : "Arial",
+                  "fontSize" : 8.00,
+                  "fontStyle" : "",
+                  "fontColor" : "FF000000"
+                }
+              },
+              "gradient" : {
+                "scheme" : "gtVertLinear",
+                "startColor" : "FFFFCC99",
+                "endColor" : "00FFFFFF"
+              },
+              "outlineStyle" : {
+                "color" : "FFFF6600",
+                "thickness" : 2.00,
+                "strokeType" : "dsDash"
+              }
+            }
+          }
+        },
+        {
+          "id" : "Node4",
+          "initialConcentration" : 0.00,
+          "compartment" : "compartment",
+          "boundary" : 0,
+          "note" : "Some notes",
+          "visible" : -1,
+          "positionLocked" : 0,
+          "sizeLocked" : 0,
+          "position" : {
+            "x" : 677.00,
+            "y" : 230.00
+          },
+          "displayValue" : {
+            "visible" : 0,
+            "displayStatus" : "dvInitialValue",
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 8.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "textValue" : {
+            "value" : "S0",
+            "visible" : -1,
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 10.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "complex" : {
+            "id" : "DefaultMolecule",
+            "displayName" : "bsShadow",
+            "w" : 62.00,
+            "h" : 40.00,
+            "boundarySpeciesStyle" : "bsShadow",
+            "boundaryStyleColor" : "FF0000FF",
+            "captionPosition" : "npCenter",
+            "aliasBoundaryColor" : "FFFF0000",
+            "aliasBoundaryThickness" : "00000000",
+            "subunit" : {
+              "shape" : "suOvalSquare",
+              "boundingBox" : {
+                "x" : 0.00,
+                "y" : 0.00,
+                "w" : 62.00,
+                "h" : 40.00
+              },
+              "textValue" : {
+                "value" : "S1",
+                "visible" : -1,
+                "position" : {
+                  "rx" : 24.88,
+                  "ry" : 14.25
+                },
+                "font" : {
+                  "fontName" : "Arial",
+                  "fontSize" : 8.00,
+                  "fontStyle" : "",
+                  "fontColor" : "FF000000"
+                }
+              },
+              "gradient" : {
+                "scheme" : "gtVertLinear",
+                "startColor" : "FFFFCC99",
+                "endColor" : "00FFFFFF"
+              },
+              "outlineStyle" : {
+                "color" : "FFFF6600",
+                "thickness" : 2.00,
+                "strokeType" : "dsDash"
+              }
+            }
+          }
+        },
+        {
+          "id" : "Node5",
+          "initialConcentration" : 0.00,
+          "compartment" : "compartment",
+          "boundary" : 0,
+          "note" : "Some notes",
+          "visible" : -1,
+          "positionLocked" : 0,
+          "sizeLocked" : 0,
+          "position" : {
+            "x" : 441.00,
+            "y" : 308.00
+          },
+          "displayValue" : {
+            "visible" : 0,
+            "displayStatus" : "dvInitialValue",
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 8.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "textValue" : {
+            "value" : "S0",
+            "visible" : -1,
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 10.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "complex" : {
+            "id" : "DefaultMolecule",
+            "displayName" : "bsShadow",
+            "w" : 62.00,
+            "h" : 40.00,
+            "boundarySpeciesStyle" : "bsShadow",
+            "boundaryStyleColor" : "FF0000FF",
+            "captionPosition" : "npCenter",
+            "aliasBoundaryColor" : "FFFF0000",
+            "aliasBoundaryThickness" : "00000000",
+            "subunit" : {
+              "shape" : "suOvalSquare",
+              "boundingBox" : {
+                "x" : 0.00,
+                "y" : 0.00,
+                "w" : 62.00,
+                "h" : 40.00
+              },
+              "textValue" : {
+                "value" : "S1",
+                "visible" : -1,
+                "position" : {
+                  "rx" : 24.88,
+                  "ry" : 14.25
+                },
+                "font" : {
+                  "fontName" : "Arial",
+                  "fontSize" : 8.00,
+                  "fontStyle" : "",
+                  "fontColor" : "FF000000"
+                }
+              },
+              "gradient" : {
+                "scheme" : "gtVertLinear",
+                "startColor" : "FFFFCC99",
+                "endColor" : "00FFFFFF"
+              },
+              "outlineStyle" : {
+                "color" : "FFFF6600",
+                "thickness" : 2.00,
+                "strokeType" : "dsDash"
+              }
+            }
+          }
+        },
+        {
+          "id" : "Node6",
+          "initialConcentration" : 0.00,
+          "compartment" : "compartment",
+          "boundary" : 0,
+          "note" : "Some notes",
+          "visible" : -1,
+          "positionLocked" : 0,
+          "sizeLocked" : 0,
+          "position" : {
+            "x" : 452.00,
+            "y" : 449.00
+          },
+          "displayValue" : {
+            "visible" : 0,
+            "displayStatus" : "dvInitialValue",
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 8.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "textValue" : {
+            "value" : "S0",
+            "visible" : -1,
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 10.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "complex" : {
+            "id" : "DefaultMolecule",
+            "displayName" : "bsShadow",
+            "w" : 62.00,
+            "h" : 40.00,
+            "boundarySpeciesStyle" : "bsShadow",
+            "boundaryStyleColor" : "FF0000FF",
+            "captionPosition" : "npCenter",
+            "aliasBoundaryColor" : "FFFF0000",
+            "aliasBoundaryThickness" : "00000000",
+            "subunit" : {
+              "shape" : "suOvalSquare",
+              "boundingBox" : {
+                "x" : 0.00,
+                "y" : 0.00,
+                "w" : 62.00,
+                "h" : 40.00
+              },
+              "textValue" : {
+                "value" : "S1",
+                "visible" : -1,
+                "position" : {
+                  "rx" : 24.88,
+                  "ry" : 14.25
+                },
+                "font" : {
+                  "fontName" : "Arial",
+                  "fontSize" : 8.00,
+                  "fontStyle" : "",
+                  "fontColor" : "FF000000"
+                }
+              },
+              "gradient" : {
+                "scheme" : "gtVertLinear",
+                "startColor" : "FFFFCC99",
+                "endColor" : "00FFFFFF"
+              },
+              "outlineStyle" : {
+                "color" : "FFFF6600",
+                "thickness" : 2.00,
+                "strokeType" : "dsDash"
+              }
+            }
+          }
+        },
+        {
+          "id" : "Node7",
+          "initialConcentration" : 0.00,
+          "compartment" : "compartment",
+          "boundary" : 0,
+          "note" : "Some notes",
+          "visible" : -1,
+          "positionLocked" : 0,
+          "sizeLocked" : 0,
+          "position" : {
+            "x" : 776.00,
+            "y" : 332.00
+          },
+          "displayValue" : {
+            "visible" : 0,
+            "displayStatus" : "dvInitialValue",
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 8.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "textValue" : {
+            "value" : "S0",
+            "visible" : -1,
+            "position" : {
+              "rx" : 0.00,
+              "ry" : 0.00
+            },
+            "font" : {
+              "fontName" : "Arial",
+              "fontSize" : 10.00,
+              "fontStyle" : "",
+              "fontColor" : "FF000000"
+            }
+          },
+          "complex" : {
+            "id" : "DefaultMolecule",
+            "displayName" : "bsShadow",
+            "w" : 62.00,
+            "h" : 40.00,
+            "boundarySpeciesStyle" : "bsShadow",
+            "boundaryStyleColor" : "FF0000FF",
+            "captionPosition" : "npCenter",
+            "aliasBoundaryColor" : "FFFF0000",
+            "aliasBoundaryThickness" : "00000000",
+            "subunit" : {
+              "shape" : "suOvalSquare",
+              "boundingBox" : {
+                "x" : 0.00,
+                "y" : 0.00,
+                "w" : 62.00,
+                "h" : 40.00
+              },
+              "textValue" : {
+                "value" : "S1",
+                "visible" : -1,
+                "position" : {
+                  "rx" : 24.88,
+                  "ry" : 14.25
+                },
+                "font" : {
+                  "fontName" : "Arial",
+                  "fontSize" : 8.00,
+                  "fontStyle" : "",
+                  "fontColor" : "FF000000"
+                }
+              },
+              "gradient" : {
+                "scheme" : "gtVertLinear",
+                "startColor" : "FFFFCC99",
+                "endColor" : "00FFFFFF"
+              },
+              "outlineStyle" : {
+                "color" : "FFFF6600",
+                "thickness" : 2.00,
+                "strokeType" : "dsDash"
+              }
+            }
+          }
+        }
+      ],
+    "listOfReactions" : [
+        {
+          "id" : "J0",
+          "reactionType" : "UniUni",
+          "ratelaw" : "UniUni",
+          "reversible" : "false",
+          "listOfReactants" : [
+              {
+                "id" : "Node0",
+                "stoichiometry" : 1.00
+              }
+            ],
+          "listOfProducts" : [
+              {
+                "id" : "Node1",
+                "stoichiometry" : 1.00
+              }
+            ],
+          "display" : {
+            "arrowStyle" : "ar1",
+            "arrowOutlineColor" : "FF808080",
+            "arrowFillColor" : "FF808080",
+            "lineColor" : "FF339966",
+            "lineThickness" : 2.00,
+            "selectedLineColor" : "FFFF0000",
+            "selectedLineThickness" : 4.00,
+            "lineType" : "ltBezier",
+            "listOfReactionArcs" : [
+                {
+                  "startPoint" : {
+                    "x" : 95.00,
+                    "y" : 90.00,
+                    "type" : "substrate",
+                    "speciesRef" : "Node0"
+                  },
+                  "pt_h1" : {
+                    "x" : 192.00,
+                    "y" : 100.00,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 192.00,
+                    "y" : 100.00,
+                    "type" : "controlPoint"
+                  },
+                  "endPoint" : {
+                    "x" : 290.00,
+                    "y" : 116.00,
+                    "type" : "product",
+                    "speciesRef" : "Node1"
+                  }
+                }
+              ],
+            "reactionLabel" : {
+              "visible" : 0,
+              "showValue" : 0,
+              "value" : 0.00,
+              "position" : {
+                "rx" : 0.00,
+                "ry" : 0.00
+              },
+              "font" : {
+                "fontName" : "Arial",
+                "fontSize" : 8.00,
+                "fontStyle" : "",
+                "fontColor" : "FF000000"
+              }
+            }
+          }
+        },
+        {
+          "id" : "J1",
+          "reactionType" : "BiUni",
+          "ratelaw" : "BiUni",
+          "reversible" : "false",
+          "listOfReactants" : [
+              {
+                "id" : "Node1",
+                "stoichiometry" : 1.00
+              },
+              {
+                "id" : "Node2",
+                "stoichiometry" : 1.00
+              }
+            ],
+          "listOfProducts" : [
+              {
+                "id" : "Node3",
+                "stoichiometry" : 1.00
+              }
+            ],
+          "display" : {
+            "arrowStyle" : "ar1",
+            "arrowOutlineColor" : "FF808080",
+            "arrowFillColor" : "FF808080",
+            "lineColor" : "FF339966",
+            "lineThickness" : 2.00,
+            "selectedLineColor" : "FFFF0000",
+            "selectedLineThickness" : 4.00,
+            "lineType" : "ltBezier",
+            "listOfReactionArcs" : [
+                {
+                  "startPoint" : {
+                    "x" : 290.00,
+                    "y" : 116.00,
+                    "type" : "substrate",
+                    "speciesRef" : "Node1"
+                  },
+                  "pt_h1" : {
+                    "x" : 297.50,
+                    "y" : 155.50,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 297.50,
+                    "y" : 175.00,
+                    "type" : "controlPoint"
+                  },
+                  "arcCenter" : {
+                    "x" : 305.00,
+                    "y" : 195.00,
+                    "type" : "arcCenter"
+                  }
+                },
+                {
+                  "startPoint" : {
+                    "x" : 201.00,
+                    "y" : 234.00,
+                    "type" : "substrate",
+                    "speciesRef" : "Node2"
+                  },
+                  "pt_h1" : {
+                    "x" : 253.00,
+                    "y" : 214.50,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 297.50,
+                    "y" : 175.00,
+                    "type" : "controlPoint"
+                  },
+                  "arcCenter" : {
+                    "x" : 305.00,
+                    "y" : 195.00,
+                    "type" : "arcCenter"
+                  }
+                },
+                {
+                  "arcCenter" : {
+                    "x" : 305.00,
+                    "y" : 195.00,
+                    "type" : "arcCenter"
+                  },
+                  "pt_h1" : {
+                    "x" : 312.50,
+                    "y" : 215.00,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 349.00,
+                    "y" : 205.00,
+                    "type" : "controlPoint"
+                  },
+                  "endPoint" : {
+                    "x" : 424.00,
+                    "y" : 235.00,
+                    "type" : "product",
+                    "speciesRef" : "Node3"
+                  }
+                }
+              ],
+            "reactionLabel" : {
+              "visible" : 0,
+              "showValue" : 0,
+              "value" : 0.00,
+              "position" : {
+                "rx" : 0.00,
+                "ry" : 0.00
+              },
+              "font" : {
+                "fontName" : "Arial",
+                "fontSize" : 8.00,
+                "fontStyle" : "",
+                "fontColor" : "FF000000"
+              }
+            }
+          }
+        },
+        {
+          "id" : "J2",
+          "reactionType" : "UniBi",
+          "ratelaw" : "UniBi",
+          "reversible" : "false",
+          "listOfReactants" : [
+              {
+                "id" : "Node3",
+                "stoichiometry" : 1.00
+              }
+            ],
+          "listOfProducts" : [
+              {
+                "id" : "Node4",
+                "stoichiometry" : 1.00
+              },
+              {
+                "id" : "Node5",
+                "stoichiometry" : 1.00
+              }
+            ],
+          "display" : {
+            "arrowStyle" : "ar1",
+            "arrowOutlineColor" : "FF808080",
+            "arrowFillColor" : "FF808080",
+            "lineColor" : "FF339966",
+            "lineThickness" : 2.00,
+            "selectedLineColor" : "FFFF0000",
+            "selectedLineThickness" : 4.00,
+            "lineType" : "ltBezier",
+            "listOfReactionArcs" : [
+                {
+                  "startPoint" : {
+                    "x" : 424.00,
+                    "y" : 235.00,
+                    "type" : "substrate",
+                    "speciesRef" : "Node3"
+                  },
+                  "pt_h1" : {
+                    "x" : 498.33,
+                    "y" : 259.00,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 498.33,
+                    "y" : 259.00,
+                    "type" : "controlPoint"
+                  },
+                  "arcCenter" : {
+                    "x" : 534.67,
+                    "y" : 271.00,
+                    "type" : "arcCenter"
+                  }
+                },
+                {
+                  "arcCenter" : {
+                    "x" : 534.67,
+                    "y" : 271.00,
+                    "type" : "arcCenter"
+                  },
+                  "pt_h1" : {
+                    "x" : 571.00,
+                    "y" : 283.00,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 602.33,
+                    "y" : 262.50,
+                    "type" : "controlPoint"
+                  },
+                  "endPoint" : {
+                    "x" : 708.00,
+                    "y" : 250.00,
+                    "type" : "product",
+                    "speciesRef" : "Node4"
+                  }
+                },
+                {
+                  "arcCenter" : {
+                    "x" : 534.67,
+                    "y" : 271.00,
+                    "type" : "arcCenter"
+                  },
+                  "pt_h1" : {
+                    "x" : 571.00,
+                    "y" : 283.00,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 518.33,
+                    "y" : 285.50,
+                    "type" : "controlPoint"
+                  },
+                  "endPoint" : {
+                    "x" : 472.00,
+                    "y" : 328.00,
+                    "type" : "product",
+                    "speciesRef" : "Node5"
+                  }
+                }
+              ],
+            "reactionLabel" : {
+              "visible" : 0,
+              "showValue" : 0,
+              "value" : 0.00,
+              "position" : {
+                "rx" : 0.00,
+                "ry" : 0.00
+              },
+              "font" : {
+                "fontName" : "Arial",
+                "fontSize" : 8.00,
+                "fontStyle" : "",
+                "fontColor" : "FF000000"
+              }
+            }
+          }
+        },
+        {
+          "id" : "J3",
+          "reactionType" : "BiBi",
+          "ratelaw" : "BiBi",
+          "reversible" : "false",
+          "listOfReactants" : [
+              {
+                "id" : "Node5",
+                "stoichiometry" : 1.00
+              },
+              {
+                "id" : "Node4",
+                "stoichiometry" : 1.00
+              }
+            ],
+          "listOfProducts" : [
+              {
+                "id" : "Node7",
+                "stoichiometry" : 1.00
+              },
+              {
+                "id" : "Node6",
+                "stoichiometry" : 1.00
+              }
+            ],
+          "display" : {
+            "arrowStyle" : "ar1",
+            "arrowOutlineColor" : "FF808080",
+            "arrowFillColor" : "FF808080",
+            "lineColor" : "FF339966",
+            "lineThickness" : 2.00,
+            "selectedLineColor" : "FFFF0000",
+            "selectedLineThickness" : 4.00,
+            "lineType" : "ltBezier",
+            "listOfReactionArcs" : [
+                {
+                  "startPoint" : {
+                    "x" : 472.00,
+                    "y" : 328.00,
+                    "type" : "substrate",
+                    "speciesRef" : "Node5"
+                  },
+                  "pt_h1" : {
+                    "x" : 560.25,
+                    "y" : 348.88,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 544.75,
+                    "y" : 299.00,
+                    "type" : "controlPoint"
+                  },
+                  "arcCenter" : {
+                    "x" : 617.50,
+                    "y" : 349.75,
+                    "type" : "arcCenter"
+                  }
+                },
+                {
+                  "startPoint" : {
+                    "x" : 708.00,
+                    "y" : 250.00,
+                    "type" : "substrate",
+                    "speciesRef" : "Node4"
+                  },
+                  "pt_h1" : {
+                    "x" : 678.25,
+                    "y" : 309.88,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 544.75,
+                    "y" : 299.00,
+                    "type" : "controlPoint"
+                  },
+                  "arcCenter" : {
+                    "x" : 617.50,
+                    "y" : 349.75,
+                    "type" : "arcCenter"
+                  }
+                },
+                {
+                  "arcCenter" : {
+                    "x" : 617.50,
+                    "y" : 349.75,
+                    "type" : "arcCenter"
+                  },
+                  "pt_h1" : {
+                    "x" : 690.25,
+                    "y" : 400.50,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 696.75,
+                    "y" : 340.88,
+                    "type" : "controlPoint"
+                  },
+                  "endPoint" : {
+                    "x" : 807.00,
+                    "y" : 352.00,
+                    "type" : "product",
+                    "speciesRef" : "Node7"
+                  }
+                },
+                {
+                  "arcCenter" : {
+                    "x" : 617.50,
+                    "y" : 349.75,
+                    "type" : "arcCenter"
+                  },
+                  "pt_h1" : {
+                    "x" : 690.25,
+                    "y" : 400.50,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 534.75,
+                    "y" : 399.38,
+                    "type" : "controlPoint"
+                  },
+                  "endPoint" : {
+                    "x" : 483.00,
+                    "y" : 469.00,
+                    "type" : "product",
+                    "speciesRef" : "Node6"
+                  }
+                }
+              ],
+            "reactionLabel" : {
+              "visible" : 0,
+              "showValue" : 0,
+              "value" : 0.00,
+              "position" : {
+                "rx" : 0.00,
+                "ry" : 0.00
+              },
+              "font" : {
+                "fontName" : "Arial",
+                "fontSize" : 8.00,
+                "fontStyle" : "",
+                "fontColor" : "FF000000"
+              }
+            }
+          }
+        },
+        {
+          "id" : "J4",
+          "reactionType" : "UniUni",
+          "ratelaw" : "UniUni",
+          "reversible" : "false",
+          "listOfReactants" : [
+              {
+                "id" : "Node6",
+                "stoichiometry" : 1.00
+              }
+            ],
+          "listOfProducts" : [
+              {
+                "id" : "Node2",
+                "stoichiometry" : 1.00
+              }
+            ],
+          "display" : {
+            "arrowStyle" : "ar1",
+            "arrowOutlineColor" : "FF808080",
+            "arrowFillColor" : "FF808080",
+            "lineColor" : "FF339966",
+            "lineThickness" : 2.00,
+            "selectedLineColor" : "FFFF0000",
+            "selectedLineThickness" : 4.00,
+            "lineType" : "ltBezier",
+            "listOfReactionArcs" : [
+                {
+                  "startPoint" : {
+                    "x" : 483.00,
+                    "y" : 469.00,
+                    "type" : "substrate",
+                    "speciesRef" : "Node6"
+                  },
+                  "pt_h1" : {
+                    "x" : 341.00,
+                    "y" : 351.50,
+                    "type" : "controlPoint"
+                  },
+                  "pt_h2" : {
+                    "x" : 341.00,
+                    "y" : 351.50,
+                    "type" : "controlPoint"
+                  },
+                  "endPoint" : {
+                    "x" : 201.00,
+                    "y" : 234.00,
+                    "type" : "product",
+                    "speciesRef" : "Node2"
+                  }
+                }
+              ],
+            "reactionLabel" : {
+              "visible" : 0,
+              "showValue" : 0,
+              "value" : 0.00,
+              "position" : {
+                "rx" : 0.00,
+                "ry" : 0.00
+              },
+              "font" : {
+                "fontName" : "Arial",
+                "fontSize" : 8.00,
+                "fontStyle" : "",
+                "fontColor" : "FF000000"
+              }
+            }
+          }
+        }
+      ]
+  }
+}
+
